@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <title>B54 - Project Portfolio</title>
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="stylesheet" href="./assets/nav.css" />
+    <link rel="stylesheet" href="./assets/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-ul">
+        <div class="navbar-left">
+          <li>
+            <img src="./assets/logo.png" class="navbar-logo" />
+          </li>
+          <li>
+            <a href="index.html" class="navbar-link active"> Home </a>
+          </li>
+          <li>
+            <a href="blog.html" class="navbar-link"> Blog </a>
+          </li>
+          <li>
+            <a href="testimonial.html" class="navbar-link"> Testimonial </a>
+          </li>
+        </div>
+        <div class="navbar-right">
+          <li>
+            <a href="contact.html" class="navbar-contact-btn"> Contact </a>
+          </li>
+          <button id="hamburger-button" onclick="toggleHamburger()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </button>
+        </div>
+      </ul>
+    </nav>
+    <div class="hamburger-container hide">
+      <a href="index.html" class="hamburger-nav-link hamburger-active">
+        Home
+      </a>
+      <a href="blog.html" class="hamburger-nav-link"> Blog </a>
+      <a href="testimonial.html" class="hamburger-nav-link"> Testimonial </a>
+      <a href="contact.html" class="hamburger-nav-link"> Contact </a>
+    </div>
+
+    <section class="container">
+      <div class="left">
+        <img
+          src="./assets/kny.png"
+          alt="Ini foto anime"
+          style="
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+          "
+        />
+        <h1>Mahdi Hidayah</h1>
+        <p>
+          Saya sedang mlaksanakan Bootcamp di Dumbways.id sebagai Fullstack Developer
+        </p>
+        <table border="1" style="width: 100%">
+          <tr>
+            <th>School Graduate</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>SMP Mizan Depok</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>MA YPPD Depok</td>
+            <td>2016</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="right">
+        <h2>What i do</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        deserunt dolores, harum rerum laboriosam earum totam dolorem debitis
+        impedit ipsam inventore sint quisquam modi eaque quis, unde nemo magni
+        ipsum?
+
+        <div class="skill">
+          <div>
+            <img src="images/logo.png" alt="" srcset="" />
+            <h2>Javascript</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ea!
+            </p>
+          </div>
+          <div>
+            <img src="images/logo.png" alt="" srcset="" />
+            <h2>Github</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ea!
+            </p>
+          </div>
+
+          <div>
+            <img src="images/logo.png" alt="" srcset="" />
+            <h2>Deployment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ea!
+            </p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <h2>Found Me on</h2>
+          <a href="https://www.facebook.com/mahdi.hidayah.0/?locale=id_ID"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/kameje_/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/nav.js"></script>
+    <script src="./learning/6.encapsulation.js"></script>
+  </body>
+</html>

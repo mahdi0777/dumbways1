@@ -19,9 +19,9 @@ class Testimonial {
     }
 }
 
-const testimonial1 = new Testimonial("https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600", "Mantap bang!", "Surya")
+const testimonial1 = new Testimonial("https://id.pinterest.com/pin/784400460096645882/", "Mantap bang!", "Mahdi")
 
-const testimonial2 = new Testimonial("https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600", "Mantap keren sekali!", "Alfi Dharmawan")
+const testimonial2 = new Testimonial("foto", "Mantap keren sekali!", "Lythaa")
 
 const testimonials = [testimonial1, testimonial2] // length => 2
 

@@ -26,8 +26,6 @@ function submitData(event) {
     console.log(message)
 
 
-
-    // programtically link
     let a = document.createElement('a')
 
     a.href = `mailto:${email}?subject=${subject}&body=${encodeURIComponent(message)}`

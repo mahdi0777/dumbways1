@@ -20,7 +20,7 @@ function addBlog(e) {
 
   console.log("blog");
   blogs.unshift(blog);
-  renderBlog();
+  
 
   console.log("blogs", blogs);
 }

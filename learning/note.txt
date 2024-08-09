@@ -1,0 +1,17 @@
+Syarat HOF:
+1. Parameter Finctionnya terdapat minimal satu berupa fungsi
+2. returnnya berupa fungsi lagi
+3. parameter fungction dan return berpua fungsi
+
+Currying : digunakan untuk menyimpan data sementara melalui sebuah fungsi
+
+Basic dari HOF:
+1. forEach (tipe data harus berbentuk Array)
+2. map = perbedaannya dengan forEach adalah map mengembalikan nilai array
+3. filter
+4. reduce = sifatnya mengakumulasikan nilai sebelumnya dengan yang baru
+
+dalam JS jika ada kubus berarti itu fungsi kalau balok berarti properti
+
+forEach nilai satuan
+map mengembalikan array

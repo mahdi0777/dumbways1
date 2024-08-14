@@ -15,3 +15,15 @@ dalam JS jika ada kubus berarti itu fungsi kalau balok berarti properti
 
 forEach nilai satuan
 map mengembalikan array
+
+pending = menunggu
+resolved = ditepati
+rejected = diingkari
+
+http request = suatu cara untuk melakukan proses ke server antar API
+POST = create data (C )
+GET = mendapatkan data (R = read)
+PATCH/PUT = update data  (U = update)
+DELETE = delete data ( D= delete)
+
+MOCK API = API pura pura
